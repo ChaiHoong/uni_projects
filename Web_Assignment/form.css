@@ -1,0 +1,39 @@
+main.account{
+    padding:300px 30% 300px 30%;
+    margin:50px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border-radius: 30px;
+    min-height: 100%;
+}
+
+.normal{
+    padding-bottom:10px;
+    float:right;
+}
+
+.normal-address{
+    min-height:140px;
+    max-height:150px;
+    width:160px;
+    resize: vertical; /* control in which direction textarea can be resized */
+    color:black;
+    float:right;
+}
+
+.line{
+    height:50px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.line-long{
+    height:170px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+textarea{
+    text-align: left;
+    padding:5px 10px 0px 10px;
+}
